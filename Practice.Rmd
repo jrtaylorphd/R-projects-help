@@ -1,0 +1,85 @@
+---
+title: "Practice"
+author: "Jessica Taylor" 
+date: "6/22/2020" 
+output: html_document
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+This file is for practice.  
+*italics* and _italics_  
+**bold** and __bold__  
+superscript^2   
+--strikethrough--  
+[Rstudio](www.rstudio.com)  
+  
+# Header 1
+## Header 2
+### Header 3  
+  
+This is an endash: --  
+This is an emdash: ---  
+ellipses: ...  
+inline equation: $y = (x+2)^2 + \cos(x)$  
+This is an image:  
+![Picture of Norm](IMG_20200619_125347_8.jpg)
+horizontal rule (or slide break):  
+
+***  
+
+> This is a block quote. This file is a practice for using R Markdown. R Markdown is kind of like Jupyter for Python.  
+
+* This is an unordered list  
+* Item 2
+  + sub-item 1
+  + sub-item 2
+  
+  Making a table  
+  
+  Table Header | Second Header
+  -------------|--------------
+  Table cell 1 | Table cell 2
+  Cell 3       | Cell 4
+  
+***
+
+Practice with inline code  
+Two plus two equals `r 2 + 2`.  
+
+This is me starting a chunk of code:  
+```{r, eval=FALSE}
+x = 4  
+y = x+2
+print(y)
+```
+
+**This is a test for GitHub**
+
+
+  
+
+
